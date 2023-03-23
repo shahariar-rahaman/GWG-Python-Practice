@@ -1,5 +1,5 @@
-#Hello World Python
 """
+#Hello World Python
 print("Hello World!")
 
 #Python list of loop
@@ -59,4 +59,11 @@ The comparison operators include:
 #Unicode value
 print("my computer" >= "my chair")#Showed true because both first letter unicode value same.
 print("Brown" < "brown")#Showed True.Because capital letter B's unicode value 66 and short hand letter unicode value 98.So, 98 bigger than 66.Thats why here output True
+
+#Logical Operators
+print(5>1 and 5<10)#and Showed True if all condition return true.
+print(5>1 and 5>10)#Here showed false.Because both condition do not return true.
+print(5>1 or 5<10)#and Showed True if at least one condition return true.
+print(5>1 or 5>10)#Here showed True.One condition do return true.
+print(not 5>1 and 5<10)#not make True to False and False to True.
 """
