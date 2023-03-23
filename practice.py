@@ -27,4 +27,10 @@ print(a+int(b))
 a = 10
 b = "Sting"
 print(b +" "+ str(a))
+
+#function: In python function return produce a value.And return is a statement.
+def person(name,occupation):
+    print("I am "+name)
+    print("I am doing "+occupation)
+person("Shahariar","Unemployed")
 """
