@@ -38,4 +38,7 @@ person("Shahariar","Unemployed")
 def area_of_triange(base,height):
     return base*height/2
 print(area_of_triange(12,24))
+
+#len() function
+print(len("Md. Shahariar Rahaman"))
 """
