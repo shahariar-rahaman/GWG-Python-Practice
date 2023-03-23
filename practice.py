@@ -66,4 +66,14 @@ print(5>1 and 5>10)#Here showed false.Because both condition do not return true.
 print(5>1 or 5<10)#and Showed True if at least one condition return true.
 print(5>1 or 5>10)#Here showed True.One condition do return true.
 print(not 5>1 and 5<10)#not make True to False and False to True.
+
+#if,else,elif statement
+from_user = int(input("Input a Number: "))
+if(from_user <= 10):
+    print("From if Block")
+elif(from_user <= 20):
+    print("From elif Block")
+else:
+    print("From else Block")
 """
+
