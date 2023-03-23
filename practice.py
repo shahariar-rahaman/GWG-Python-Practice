@@ -55,4 +55,8 @@ The comparison operators include:
 < (less than)
 >= (greater than or equal to)
 <= (less than or equal to)
+
+#Unicode value
+print("my computer" >= "my chair")#Showed true because both first letter unicode value same.
+print("Brown" < "brown")#Showed True.Because capital letter B's unicode value 66 and short hand letter unicode value 98.So, 98 bigger than 66.Thats why here output True
 """
