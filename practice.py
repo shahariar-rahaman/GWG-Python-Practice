@@ -41,4 +41,18 @@ print(area_of_triange(12,24))
 
 #len() function
 print(len("Md. Shahariar Rahaman"))
+
+#In python >,<,>=,<= in not work between float/integer vs string
+print(1<"1")#showed error
+print(1>"1")#showed error
+print(1<="1")#showed error
+print(1>="1")#showed error
+   
+The comparison operators include:
+== (equality)
+!= (not equal to)
+> (greater than)
+< (less than)
+>= (greater than or equal to)
+<= (less than or equal to)
 """
