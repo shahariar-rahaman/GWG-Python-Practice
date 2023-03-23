@@ -33,4 +33,9 @@ def person(name,occupation):
     print("I am "+name)
     print("I am doing "+occupation)
 person("Shahariar","Unemployed")
+
+#function with return statement
+def area_of_triange(base,height):
+    return base*height/2
+print(area_of_triange(12,24))
 """
